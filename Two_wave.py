@@ -64,7 +64,7 @@ def process_wave(cycle):
     derivative_2 = derivative_2 * 5000
     derivative_3 = derivative_3 * 100000
 
-    return origin, derivative_2, derivative_3
+    return [derivative_1, derivative_2, derivative_3]
 
 def Find_Path(path):
 
@@ -102,10 +102,24 @@ def get_Imformation(path,locate, imformation=[]):
 
     return imformation, Name
 
-def plot(L_cycle,R_cycle):
-    plt.plot(L_cycle)
-    plt.plot(R_cycle)
-    plt.show()
+def plot(L_cycle, R_cycle, Name,i):
+    def on_key(event):
+        if event.key == 'z':
+            plt.close()
+
+    plt.plot(L_cycle, label='Left PPG')
+    plt.plot(R_cycle, label='Right PPG')
+
+    plt.title(f'{Name}, {i + 1}th Left_Right',fontproperties=font_prop)
+    plt.legend()
+    plt.grid()
+    if mode == 'show':
+        plt.show()
+    else:
+        plt.savefig(f'F:\\Python\\PPG\\Cycle\\{Name}, {i + 1}th Left_Right.jpg')
+
+    plt.gcf().canvas.mpl_connect('key_press_event', on_key)
+    plt.close()
 
 def main():
     channel1_id = 2
@@ -173,8 +187,11 @@ def main():
                 R_cycle *= 0.5 / R_peaks_y[0]
                 R_peaks_y[0] = 0.5
                 R_peaks_y[1] = 0.5
+            
+            L_derivative = process_wave(L_cycle)
+            R_derivative = process_wave(R_cycle)
 
-            plot(L_cycle, R_cycle)
+            plot(L_cycle, R_cycle, Name,i)
                 
 
 
