@@ -14,7 +14,7 @@ font_path = 'C:\\Windows\\Fonts\\simsun.ttc'  # 宋體
 font_prop = FontProperties(fname=font_path)
 
 mode = 'show'   # 'show' or 'save'
-patient = 'patient' # 'normal' or 'patient'
+patient = 'normal' # 'normal' or 'patient'
 
 
 def butter(DataL, DataR, cut_low, cut_high, sample_rate, order):
@@ -121,6 +121,34 @@ def plot(L_cycle, R_cycle, Name,i):
     plt.gcf().canvas.mpl_connect('key_press_event', on_key)
     plt.close()
 
+def calculate_d1(cycle):
+    derivative = process_wave(cycle)
+    d1_peak,_ = find_peaks(derivative[0], height=0, distance=800)
+    x = np.linspace(0, len(derivative[0]), len(derivative[0]))
+    plt.plot(derivative[0])
+    plt.plot(x[d1_peak], derivative[0][d1_peak], '*', label='First Derivative')
+    plt.show()
+
+    B8 = max(d1_peak)
+    B4 = d1_peak[1] - d1_peak[0]
+    print(B8, B4)
+
+    calculate_d2(derivative)
+
+def calculate_d2(derivative):
+    derivative[2] = 
+
+def calculate_cycle(cycle,cycle_cut, peak):
+    B1 = max(peak[1])
+    B2 = 0
+    B3 = len(cycle_cut[0])
+    B6 = peak[0][1] - peak[0][0]
+    B7 = len(cycle_cut[0]) - peak[0][0]
+    B10 = peak[0][0]
+
+    print(B1, B2, B3, B6, B7, B10)
+
+
 def main():
     channel1_id = 2
     channel2_id = 4
@@ -168,12 +196,14 @@ def main():
 
             L_peaks_x, L_peaks_y = find_peaks(L_cycle, height=0, distance=500)
             L_peaks_y = L_peaks_y['peak_heights']
+            L_peak = [L_peaks_x, L_peaks_y]
 
             R_cycle = R_wave[L_valley_x[i]:L_valley_x[i + 2]]
             R_cycle_cut = [R_wave[R_valley_x[i]:R_valley_x[i + 1]], R_wave[R_valley_x[i + 1]:R_valley_x[i + 2]]]  # vivide 2
 
             R_peaks_x, R_peaks_y = find_peaks(R_cycle, height=0, distance=500)
             R_peaks_y = R_peaks_y['peak_heights']
+            R_peak = [R_peaks_x, R_peaks_y]
 
             if len(L_cycle) < 1100 or len(L_peaks_y) != 2 or len(R_peaks_y) != 2 or len(R_cycle) < 1100:
                 continue
@@ -188,11 +218,12 @@ def main():
                 R_peaks_y[0] = 0.5
                 R_peaks_y[1] = 0.5
             
-            L_derivative = process_wave(L_cycle)
-            R_derivative = process_wave(R_cycle)
+            calculate_cycle(L_cycle, L_cycle_cut, L_peak)
+
+            calculate_d1(L_cycle)
 
             plot(L_cycle, R_cycle, Name,i)
-                
+
 
 
 if __name__ == '__main__':
