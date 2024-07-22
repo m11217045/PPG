@@ -9,6 +9,8 @@ from scipy.integrate import simps
 import adi
 import pandas as pd
 from tqdm import tqdm
+from fastdtw import fastdtw
+from scipy.spatial.distance import euclidean
 
 font_path = 'C:\\Windows\\Fonts\\simsun.ttc'  # 宋體
 font_prop = FontProperties(fname=font_path)
@@ -107,6 +109,36 @@ def plot(L_cycle,R_cycle):
     plt.plot(R_cycle)
     plt.show()
 
+def DTW(ts1, ts2):
+    print(f'Length of ts1: {len(ts1)}, Length of ts2: {len(ts2)}')
+    
+    # 計算DTW距離及對齊路徑
+    distance, path = fastdtw(ts1, ts2)
+    print(f'DTW distance: {distance}')
+
+    # 繪製原始時間序列及對齊路徑
+    plt.figure(figsize=(12, 6))
+
+    plt.subplot(2, 1, 1)
+    plt.plot(ts1, label='ts1')
+    plt.plot(ts2, label='ts2')
+    plt.legend()
+    plt.title('Original Time Series and DTW Alignment Path')
+
+    # 創建對齊後的波形
+    aligned_ts1 = [ts1[i] for i, j in path]
+    aligned_ts2 = [ts2[j] for i, j in path]
+
+    # 繪製對齊後的波形及它們之間的差異
+    plt.subplot(2, 1, 2)
+    plt.plot(aligned_ts1, label='Aligned ts1')
+    plt.plot(aligned_ts2, label='Aligned ts2')
+    plt.legend()
+    plt.title('Aligned Time Series')
+
+    plt.tight_layout()
+    plt.show()
+
 def main():
     channel1_id = 2
     channel2_id = 4
@@ -174,8 +206,10 @@ def main():
                 R_peaks_y[0] = 0.5
                 R_peaks_y[1] = 0.5
 
-            plot(L_cycle, R_cycle)
-                
+            #plot(L_cycle, R_cycle)
+            print(L_cycle.shape)
+            DTW(L_cycle, R_cycle)
+
 
 
 if __name__ == '__main__':
