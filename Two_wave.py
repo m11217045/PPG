@@ -61,7 +61,7 @@ def process_wave(cycle):
     derivative(cycle, 3, values)
     values = np.array(values)
     origin, derivative_1, derivative_2, derivative_3 = values
-    derivative_1 = derivative_1 * 100
+    derivative_1 = derivative_1 * 50
     derivative_2 = derivative_2 * 5000
     derivative_3 = derivative_3 * 100000
 
@@ -127,56 +127,126 @@ def plot(cycle_1, cycle_2, parameter, Name,i):
 
 def calculate_d1(cycle, Name, i):
     derivative = process_wave(cycle)
-    d1_peak,_ = find_peaks(derivative[0], height=0, distance=800)
-    # if len(d1_peak) != 2:
-    #     return 0
-    # x = np.linspace(0, len(derivative[0]), len(derivative[0]))
-    # plt.plot(derivative[0])
-    # plt.plot(x[d1_peak], derivative[0][d1_peak], '*', label='First Derivative')
-
+    # d1_peak,_ = find_peaks(derivative[0], height=0, distance=800)
+    # d1_valley,_ = find_peaks(derivative[0] * -1, height=0, distance=800)
     x = np.linspace(0, len(cycle), len(cycle))
     plt.plot(cycle)
-    plt.plot(x[d1_peak], cycle[d1_peak], '*', label='First Derivative')
-
-    # B8 = max(d1_peak)
-    # B4 = d1_peak[1] - d1_peak[0]
-    # print(B8, B4)
+    plt.plot(derivative[0])
+    plt.plot(derivative[1])
 
     #calculate_d2(cycle, derivative, Name, i) 
+    find_fdppg_features(derivative[0],x)
 
-def calculate_d2(cycle, derivative, Name, i):   #!放棄
+def find_fdppg_features(fdppg,x, threshold_max=0.5, threshold_min=0.5):
+    """
+    找出FDPPG信號中的特徵點。
+    
+    參數：
+    - fdppg: 一階導數的PPG信號
+    - threshold_max: 用於識別最大峰值的閾值（通常設置為最大值的50%）
+    - threshold_min: 用於識別最小峰值的閾值（通常設置為最小值的80%）
+    
+    返回：
+    - max_peaks: 最大峰值的索引列表
+    - min_peaks: 最小峰值的索引列表
+    - local_extreme_points: 局部極值點的索引列表
+    """
+    max_peaks = []
+    min_peaks = []
+    local_extreme_points = []
+
+    max_threshold = np.max(fdppg) * threshold_max
+    min_threshold = np.min(fdppg) * threshold_min
+    
+    # 找出最大峰值
+    max_peaks = find_peaks(fdppg, height=0, distance=500)[0]
+    
+    # 找出最小峰值
+    min_peaks = find_peaks(fdppg * -1, height=(0, max_peaks[0]), distance=500)[0]
+    
+    # 找出局部極值點（通常在最小峰值和下一個零交叉點之間）
+    # for i in range(len(min_peaks) - 1):
+    #     region = fdppg[min_peaks[i]:min_peaks[i + 1]]
+    #     local_extreme = min_peaks[i] + np.argmin(region)
+    #     local_extreme_points.append(local_extreme)
+    
+    print(max_peaks, min_peaks, local_extreme_points)
+    plt.plot(x[max_peaks], fdppg[max_peaks], '*', label='max_peaks')
+    plt.plot(x[min_peaks], fdppg[min_peaks], '*', label='min_peaks')
+    plt.plot(x[local_extreme_points], fdppg[local_extreme_points], '*', label='local_extreme_points')
+    plt.show()
+    #return max_peaks, min_peaks, local_extreme_points
+
+def calculate_d2(cycle, derivative, Name, i):
     TDPPG_x = np.where(np.diff(np.sign(derivative[2])))[0]
     # zero_TDPPG,_ = find_peaks(derivative[1] * -1, height=0)
-    d_peak = (len(cycle) / 2.5 ) * 1.2
-    x = np.linspace(0, len(derivative[1]), len(derivative[1]))
-    plt.plot(derivative[1])
-    plt.plot(x[TDPPG_x[5]], cycle[TDPPG_x[5]], '*', label='Second Derivative')
-    plt.vlines(d_peak, -1, 1, color="red", linestyles="--")
     TDPPG_y = derivative[2][TDPPG_x]
-    def find_closest_to_target(numbers_x, numbers_y, target):
-        closest_index = min(range(len(numbers_x)), key=lambda i: abs(numbers_x[i] - target))
-        if np.abs(TDPPG_x[5] - d_peak) < 100:
-            closest_index = 5
-            return closest_index
-        else:
-            return 0
-        
-    true_d = find_closest_to_target(TDPPG_x,TDPPG_y, d_peak)
-    print(true_d)
-    if TDPPG_x[true_d] == TDPPG_x[5]:
-        print('True')
-    else:
-        print(TDPPG_x[true_d], TDPPG_x[5])
-        
-    plt.vlines(TDPPG_x[true_d], -1, 1, color="green", linestyles="--")
+    x = np.linspace(0, len(derivative[2]), len(derivative[2]))
+    
+    plt.plot(derivative[1])
+    plt.plot(x[TDPPG_x], derivative[1][TDPPG_x], '*', label='second Derivative')
     plt.title(f'{Name}, {i + 1}th Left_Right',fontproperties=font_prop)
     plt.legend()
     plt.grid()
-    if mode == 'show':
-        plt.show()
-    else:
-        plt.savefig(f'F:\\Python\\PPG\\Cycle\\{Name}, {i + 1}th Left_Right.jpg')
-    plt.close()
+    # if mode == 'show':
+    #     #plt.show()
+    # else:
+    #     plt.savefig(f'F:\\Python\\PPG\\Cycle\\{Name}, {i + 1}th Left_Right.jpg')
+    # plt.close()
+    find_sdppg_features(derivative[1])
+
+def find_sdppg_features(sdppg, threshold_a=0.45):
+    """
+    找出SDPPG信號中的特徵點。
+    
+    參數：
+    - sdppg: 二階導數的PPG信號
+    - threshold_a: 用於識別'a'峰值的閾值（通常設置為最大值的45%）
+    
+    返回：
+    - a_peaks: 'a'波的索引列表
+    - b_peaks: 'b'波的索引列表
+    - c_peaks: 'c'波的索引列表
+    - d_peaks: 'd'波的索引列表
+    - e_peaks: 'e'波的索引列表
+    """
+    a_peaks = []
+    b_peaks = []
+    c_peaks = []
+    d_peaks = []
+    e_peaks = []
+
+    a_threshold = np.max(sdppg) * threshold_a
+    
+    # 找出'a'波峰值
+    for i in range(1, len(sdppg) - 1):
+        if sdppg[i] > a_threshold and sdppg[i] > sdppg[i - 1] and sdppg[i] > sdppg[i + 1]:
+            a_peaks.append(i)
+    
+    # 找出'b'波峰值
+    for i in range(len(a_peaks) - 1):
+        region = sdppg[a_peaks[i]:a_peaks[i + 1]]
+        b_peak = a_peaks[i] + np.argmin(region)
+        b_peaks.append(b_peak)
+    
+    # 'c'波和'd'波之間有時可能重疊，需要特別處理
+    for i in range(len(b_peaks) - 1):
+        region = sdppg[b_peaks[i]:b_peaks[i + 1]]
+        c_peak = b_peaks[i] + np.argmax(region)
+        c_peaks.append(c_peak)
+        
+        region = sdppg[c_peak:b_peaks[i + 1]]
+        d_peak = c_peak + np.argmax(region)
+        d_peaks.append(d_peak)
+    
+    # 找出'e'波峰值
+    for i in range(len(b_peaks) - 1):
+        region = sdppg[b_peaks[i]:b_peaks[i + 1]]
+        e_peak = b_peaks[i] + np.argmin(region)
+        e_peaks.append(e_peak)
+    
+    print(a_peaks, b_peaks, c_peaks, d_peaks, e_peaks)
+    plt.show()
 
 def calculate_cycle(cycle,cycle_cut, peak):
     B1 = max(peak[1])
@@ -273,15 +343,15 @@ def main():
             parameter = calculate_cycle(L_cycle, L_cycle_cut, L_peak)
             
             
-            #calculate_d1(L_cycle_cut[0], Name, i)
+            calculate_d1(L_cycle_cut[0], Name, i)
             
             min_len = min(len(L_cycle), len(R_cycle))
             u_statistic, p = mannwhitneyu(L_cycle_cut[0][0:min_len], R_cycle_cut[0][0:min_len])
-            print(u_statistic, p)
+            #print(u_statistic, p)
             parameter.append(p)
             
-            All_imformation = Imformation + parameter
-            Write_Excel(All_imformation)
+            #All_imformation = Imformation + parameter
+            #Write_Excel(All_imformation)
             #plot(L_cycle, R_cycle, 0, Name,i)
 
 
