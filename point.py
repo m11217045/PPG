@@ -71,10 +71,13 @@ def load_progress():
 
 # 繪製波型的函數
 def plot_waveform(waveform_data):
+    
     plt.plot(waveform_data, label='Waveform Data')
     plt.title(f'Waveform - {current_file_name} - Click to Mark Features')
     plt.xlabel('Data Point Index')
     plt.ylabel('Amplitude')
+    mngr = plt.get_current_fig_manager()
+    mngr.window.wm_geometry("+0+100") # type: ignore
     plt.grid(True)
     plt.legend()
 
@@ -105,7 +108,7 @@ def main():
         waveform_data = np.load(file_path)
 
         # 創建圖形並連接點擊事件和按鍵事件
-        fig, ax = plt.subplots(figsize=(10, 6))
+        fig, ax = plt.subplots(figsize=(9, 6))
         plot_waveform(waveform_data)
 
         # 連接滑鼠點擊事件
