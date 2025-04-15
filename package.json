@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "@cloudflare/mcp-server-cloudflare": "^0.2.0"
-  }
-}
