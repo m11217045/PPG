@@ -43,7 +43,7 @@
 伍黃秀霞,39,Left,1,1,True
 伍黃秀霞,53,Right,1,1,True
 伍黃秀霞,3,Right,1,1,True
-伍黃秀霞,85,Right,1,1,True
+伍黃秀霞,85,Right,1,0,False
 伍黃秀霞,109,Right,1,1,True
 伍黃秀霞,137,Right,1,1,True
 伍黃秀霞,9,Right,1,1,True
@@ -172,7 +172,7 @@
 劉正國,267,Right,1,1,True
 劉正國,71,Left,1,1,True
 劉正國,51,Right,1,1,True
-劉正國,265,Left,1,1,True
+劉正國,265,Left,1,0,False
 劉正國,107,Left,1,1,True
 劉正國,189,Right,1,1,True
 劉正國,45,Left,1,1,True
@@ -195,7 +195,7 @@
 劉正國,167,Left,1,1,True
 劉正國,81,Right,1,1,True
 劉正國,245,Right,1,1,True
-劉正國,5,Left,1,0,False
+劉正國,5,Left,1,1,True
 劉正國,41,Right,1,1,True
 劉正國,275,Left,1,1,True
 劉正國,313,Right,1,1,True
@@ -220,7 +220,7 @@
 劉正國,319,Left,1,0,False
 劉正國,149,Right,1,1,True
 劉正國,167,Right,1,1,True
-劉正國,265,Left,1,0,False
+劉正國,265,Left,1,1,True
 劉正國,223,Left,1,1,True
 劉正國,45,Right,1,1,True
 劉正國,141,Right,1,1,True
@@ -330,7 +330,7 @@
 吳水道_前,249,Left,0,0,True
 吳水道_前,245,Left,0,1,False
 吳水道_前,197,Left,0,0,True
-吳水道_前,335,Left,0,0,True
+吳水道_前,335,Left,0,1,False
 吳水道_前,211,Left,0,0,True
 吳水道_前,147,Left,0,0,True
 吳水道_前,73,Right,0,0,True
@@ -356,7 +356,7 @@
 吳水道_前,153,Right,0,0,True
 吳水道_前,359,Right,0,0,True
 吳水道_前,77,Left,0,1,False
-吳水道_前,279,Left,0,0,True
+吳水道_前,279,Left,0,1,False
 吳水道_前,75,Right,0,0,True
 吳水道_前,195,Left,0,0,True
 吳水道_前,63,Left,0,0,True
@@ -401,7 +401,7 @@
 吳水道_後,77,Right,1,1,True
 吳水道_後,355,Right,1,1,True
 吳水道_後,97,Right,1,1,True
-吳水道_後,221,Left,1,1,True
+吳水道_後,221,Left,1,0,False
 吳水道_後,357,Left,1,0,False
 吳水道_後,257,Left,1,1,True
 吳水道_後,195,Right,1,1,True
@@ -444,7 +444,7 @@
 吳水道_後,293,Left,1,1,True
 吳水道_後,191,Right,1,1,True
 吳水道_後,63,Right,1,1,True
-吳水道_後,91,Left,1,1,True
+吳水道_後,91,Left,1,0,False
 吳水道_後,249,Right,1,1,True
 吳水道_後,331,Right,1,1,True
 吳水道_後,335,Right,1,1,True
@@ -594,7 +594,7 @@
 吳鑫鴻_前,445,Right,0,0,True
 吳鑫鴻_後,175,Right,1,1,True
 吳鑫鴻_後,217,Left,1,1,True
-吳鑫鴻_後,223,Left,1,1,True
+吳鑫鴻_後,223,Left,1,0,False
 吳鑫鴻_後,105,Left,1,1,True
 吳鑫鴻_後,25,Left,1,1,True
 吳鑫鴻_後,55,Left,1,1,True
@@ -925,7 +925,7 @@
 張劉鳳英,41,Right,0,0,True
 張劉鳳英,173,Right,0,0,True
 張劉鳳英,173,Left,0,1,False
-張劉鳳英,401,Left,0,1,False
+張劉鳳英,401,Left,0,0,True
 張劉鳳英,17,Right,0,1,False
 張劉鳳英,157,Left,0,0,True
 張劉鳳英,227,Right,0,0,True
@@ -946,7 +946,7 @@
 張劉鳳英,27,Left,0,0,True
 張劉鳳英,295,Left,0,0,True
 張劉鳳英,13,Left,0,0,True
-張劉鳳英,5,Right,0,1,False
+張劉鳳英,5,Right,0,0,True
 張劉鳳英,393,Left,0,0,True
 張劉鳳英,27,Right,0,0,True
 張劉鳳英,39,Right,0,0,True
@@ -971,7 +971,7 @@
 張劉鳳英,305,Left,0,0,True
 張劉鳳英,303,Right,0,0,True
 張劉鳳英,299,Right,0,0,True
-張劉鳳英,355,Left,0,0,True
+張劉鳳英,355,Left,0,1,False
 張劉鳳英,51,Right,0,0,True
 張劉鳳英,329,Left,0,0,True
 張劉鳳英,195,Left,0,1,False
@@ -1003,7 +1003,7 @@
 張劉鳳英,323,Right,0,0,True
 張劉鳳英,201,Left,0,0,True
 張劉鳳英,339,Right,0,0,True
-張劉鳳英,19,Left,0,1,False
+張劉鳳英,19,Left,0,0,True
 張劉鳳英,173,Right,0,0,True
 張劉鳳英,7,Left,0,1,False
 張劉鳳英,299,Left,0,0,True
@@ -1011,7 +1011,7 @@
 張劉鳳英,41,Left,0,1,False
 張劉鳳英,235,Right,0,0,True
 張劉鳳英,175,Left,0,1,False
-張劉鳳英,165,Left,0,0,True
+張劉鳳英,165,Left,0,1,False
 張劉鳳英,221,Right,0,0,True
 張劉鳳英,211,Right,0,0,True
 張劉鳳英,77,Left,0,0,True
@@ -1049,7 +1049,7 @@
 張林秀,201,Left,1,1,True
 張林秀,199,Right,1,1,True
 張林秀,131,Right,1,0,False
-張林秀,309,Left,1,0,False
+張林秀,309,Left,1,1,True
 張林秀,293,Left,1,1,True
 張林秀,257,Right,1,1,True
 張林秀,255,Right,1,1,True
@@ -1061,7 +1061,7 @@
 張林秀,175,Right,1,1,True
 張林秀,21,Right,1,1,True
 張林秀,363,Right,1,1,True
-張林秀,255,Left,1,1,True
+張林秀,255,Left,1,0,False
 張林秀,87,Left,1,1,True
 張林秀,35,Left,1,0,False
 張林秀,275,Right,1,1,True
@@ -1087,7 +1087,7 @@
 張林秀,157,Left,1,1,True
 張林秀,147,Left,1,1,True
 張林秀,29,Left,1,1,True
-張林秀,41,Left,1,1,True
+張林秀,41,Left,1,0,False
 張林秀,45,Right,1,1,True
 張林秀,181,Right,1,1,True
 張林秀,107,Right,1,1,True
@@ -1156,7 +1156,7 @@
 張秋花,387,Left,0,0,True
 張秋花,215,Left,0,0,True
 張秋花,97,Right,0,0,True
-張秋花,159,Left,0,1,False
+張秋花,159,Left,0,0,True
 張秋花,211,Right,0,1,False
 張秋花,275,Left,0,0,True
 張秋花,247,Right,0,0,True
@@ -1164,7 +1164,7 @@
 張秋花,287,Left,0,1,False
 張秋花,213,Right,0,0,True
 張秋花,311,Left,0,1,False
-張秋花,135,Left,0,1,False
+張秋花,135,Left,0,0,True
 張秋花,339,Left,0,0,True
 張秋花,271,Right,0,0,True
 張秋花,95,Left,0,0,True
@@ -1181,7 +1181,7 @@
 張秋花,335,Left,0,0,True
 張秋花,349,Right,0,1,False
 張秋花,17,Left,0,1,False
-張秋花,247,Left,0,0,True
+張秋花,247,Left,0,1,False
 張秋花,265,Right,0,1,False
 張秋花,29,Left,0,1,False
 張秋花,317,Left,0,1,False
@@ -1209,7 +1209,7 @@
 張秋花,241,Right,0,0,True
 張秋花,179,Left,0,0,True
 張秋花,5,Left,0,1,False
-張秋花,257,Right,0,0,True
+張秋花,257,Right,0,1,False
 張秋花,241,Left,0,0,True
 張秋花,71,Left,0,1,False
 張秋花,355,Right,0,0,True
@@ -1221,7 +1221,7 @@
 張秋花,143,Left,0,0,True
 張秋花,299,Right,0,1,False
 張秋花,267,Left,0,0,True
-張秋花,147,Right,0,0,True
+張秋花,147,Right,0,1,False
 張秋花,121,Left,0,0,True
 張秋花,267,Right,0,0,True
 張秋花,217,Left,0,1,False
@@ -1233,7 +1233,7 @@
 張秋花,345,Right,0,1,False
 張秋花,203,Left,0,1,False
 張秋花,273,Right,0,1,False
-張秋花,297,Left,0,1,False
+張秋花,297,Left,0,0,True
 張秋花,357,Right,0,0,True
 張秋花,61,Right,0,1,False
 張秋花,281,Right,0,1,False
@@ -1246,7 +1246,7 @@
 張秋花,263,Right,0,0,True
 張秋花,205,Left,0,0,True
 張秋花,299,Left,0,0,True
-張秋花,301,Left,0,0,True
+張秋花,301,Left,0,1,False
 張秋花,37,Left,0,0,True
 張秋花,147,Left,0,0,True
 張秋花,303,Left,0,0,True
@@ -1274,7 +1274,7 @@
 張秋花,195,Left,0,1,False
 張秋花,275,Left,0,0,True
 張秋花,175,Left,0,0,True
-張秋花,337,Left,0,0,True
+張秋花,337,Left,0,1,False
 張秋花,45,Left,0,1,False
 張秋花,349,Left,0,0,True
 張秋花,67,Right,0,0,True
@@ -1285,7 +1285,7 @@
 張秋花,323,Left,0,0,True
 張秋花,221,Left,0,0,True
 張秋花,39,Left,0,0,True
-張秋花,305,Left,0,0,True
+張秋花,305,Left,0,1,False
 張秋花,253,Left,0,0,True
 張秋花,99,Right,0,1,False
 張秋花,273,Right,0,1,False
@@ -1321,17 +1321,17 @@
 張秋花,19,Left,0,0,True
 張秋花,51,Left,0,0,True
 張秋花,203,Left,0,1,False
-張秋花,157,Left,0,1,False
+張秋花,157,Left,0,0,True
 張秋花,227,Left,0,1,False
 張秋花,69,Right,0,1,False
 張秋花,87,Left,0,1,False
-張秋花,145,Right,0,1,False
+張秋花,145,Right,0,0,True
 張秋花,125,Right,0,0,True
 張秋花,277,Left,0,1,False
 張秋花,233,Right,0,1,False
 張秋花,31,Left,0,0,True
 張秋花,247,Left,0,0,True
-張秋花,313,Right,0,0,True
+張秋花,313,Right,0,1,False
 張秋花,337,Right,0,1,False
 張秋花,61,Left,0,1,False
 張秋花,83,Left,0,0,True
@@ -1358,7 +1358,7 @@
 張美淑,211,Right,1,1,True
 張美淑,195,Left,1,1,True
 張美淑,59,Right,1,1,True
-張美淑,91,Left,1,0,False
+張美淑,91,Left,1,1,True
 張美淑,191,Right,1,1,True
 張美淑,121,Right,1,1,True
 張美淑,123,Left,1,1,True
@@ -1439,8 +1439,8 @@
 張美淑,119,Right,1,1,True
 張美淑,261,Left,1,0,False
 張美淑,101,Right,1,1,True
-張美淑,183,Left,1,1,True
-張美淑,105,Left,1,0,False
+張美淑,183,Left,1,0,False
+張美淑,105,Left,1,1,True
 張美淑,189,Left,1,1,True
 張美淑,273,Left,1,1,True
 張美淑,271,Right,1,1,True
@@ -1448,7 +1448,7 @@
 張美淑,207,Left,1,0,False
 張美淑,133,Right,1,1,True
 張美淑,281,Left,1,1,True
-張美淑,23,Left,1,0,False
+張美淑,23,Left,1,1,True
 張美淑,5,Left,1,0,False
 張美淑,69,Left,1,1,True
 張美淑,105,Right,1,1,True
@@ -1504,7 +1504,7 @@
 張金英_前,7,Right,0,0,True
 張金英_前,79,Right,0,1,False
 張金英_前,339,Right,0,0,True
-張金英_前,327,Right,0,0,True
+張金英_前,327,Right,0,1,False
 張金英_前,239,Right,0,0,True
 張金英_前,245,Left,0,0,True
 張金英_前,107,Right,0,0,True
@@ -1517,12 +1517,12 @@
 張金英_前,329,Left,0,1,False
 張金英_前,207,Left,0,1,False
 張金英_前,113,Left,0,1,False
-張金英_前,347,Right,0,1,False
+張金英_前,347,Right,0,0,True
 張金英_前,273,Left,0,0,True
 張金英_前,89,Left,0,1,False
 張金英_前,209,Left,0,1,False
 張金英_前,189,Left,0,1,False
-張金英_前,191,Left,0,0,True
+張金英_前,191,Left,0,1,False
 張金英_前,301,Right,0,0,True
 張金英_前,135,Right,0,1,False
 張金英_前,213,Right,0,1,False
@@ -1542,7 +1542,7 @@
 張金英_前,201,Right,0,1,False
 張金英_前,241,Left,0,1,False
 張金英_前,117,Right,0,0,True
-張金英_前,109,Right,0,1,False
+張金英_前,109,Right,0,0,True
 張金英_前,207,Right,0,0,True
 張金英_前,225,Right,0,0,True
 張金英_前,121,Right,0,0,True
@@ -1553,7 +1553,7 @@
 張金英_前,5,Left,0,0,True
 張金英_前,9,Right,0,1,False
 張金英_前,105,Left,0,0,True
-張金英_前,199,Right,0,1,False
+張金英_前,199,Right,0,0,True
 張金英_前,55,Right,0,1,False
 張金英_前,41,Right,0,1,False
 張金英_前,279,Left,0,1,False
@@ -1588,7 +1588,7 @@
 張金英_後,355,Right,1,1,True
 張金英_後,97,Right,1,1,True
 張金英_後,37,Left,1,1,True
-張金英_後,65,Left,1,0,False
+張金英_後,65,Left,1,1,True
 張金英_後,189,Right,1,1,True
 張金英_後,343,Left,1,1,True
 張金英_後,153,Right,1,1,True
@@ -1620,7 +1620,7 @@
 張金英_後,229,Right,1,1,True
 張金英_後,219,Right,1,1,True
 張金英_後,225,Left,1,1,True
-張金英_後,215,Left,1,1,True
+張金英_後,215,Left,1,0,False
 張金英_後,327,Left,1,1,True
 張金英_後,213,Left,1,1,True
 張金英_後,311,Right,1,1,True
@@ -1632,7 +1632,7 @@
 張金英_後,241,Right,1,1,True
 張金英_後,231,Right,1,1,True
 張金英_後,279,Right,1,1,True
-張金英_後,41,Left,1,0,False
+張金英_後,41,Left,1,1,True
 張金英_後,171,Left,1,0,False
 張金英_後,353,Left,1,1,True
 張金英_後,321,Right,1,1,True
@@ -1640,7 +1640,7 @@
 張金英_後,237,Left,1,1,True
 張金英_後,47,Left,1,1,True
 張金英_後,265,Right,1,1,True
-張金英_後,203,Left,1,0,False
+張金英_後,203,Left,1,1,True
 張金英_後,349,Left,1,0,False
 張金英_後,213,Right,1,1,True
 張金英_後,149,Left,1,0,False
@@ -1657,8 +1657,8 @@
 張金英_後,225,Right,1,1,True
 張金英_後,317,Right,1,1,True
 張金英_後,105,Left,1,1,True
-張金英_後,269,Left,1,0,False
-張金英_後,197,Left,1,0,False
+張金英_後,269,Left,1,1,True
+張金英_後,197,Left,1,1,True
 張金英_後,165,Left,1,1,True
 張金英_後,153,Left,1,1,True
 張金英_後,323,Left,1,1,True
@@ -1671,12 +1671,12 @@
 張金英_後,301,Left,1,1,True
 張金英_後,307,Left,1,1,True
 張金英_後,85,Right,1,1,True
-張金英_後,233,Left,1,1,True
+張金英_後,233,Left,1,0,False
 張金英_後,259,Left,1,1,True
 張金英_後,55,Right,1,1,True
 張金英_後,117,Right,1,1,True
 張金英_後,209,Right,1,1,True
-張金英_後,325,Left,1,1,True
+張金英_後,325,Left,1,0,False
 張金英_後,177,Left,1,0,False
 張金英_後,291,Right,1,1,True
 張金英_後,95,Left,1,1,True
@@ -1688,7 +1688,7 @@
 張金英_後,339,Right,1,1,True
 張金英_後,259,Right,1,1,True
 張金英_後,169,Right,1,1,True
-張金英_後,79,Left,1,1,True
+張金英_後,79,Left,1,0,False
 施陳茸,231,Left,1,1,True
 施陳茸,185,Left,1,1,True
 施陳茸,309,Right,1,1,True
@@ -1706,9 +1706,9 @@
 施陳茸,275,Left,1,1,True
 施陳茸,149,Right,1,1,True
 施陳茸,213,Left,1,1,True
-施陳茸,279,Right,1,1,True
+施陳茸,279,Right,1,0,False
 施陳茸,73,Left,1,1,True
-施陳茸,55,Right,1,1,True
+施陳茸,55,Right,1,0,False
 施陳茸,317,Right,1,1,True
 施陳茸,79,Left,1,1,True
 施陳茸,277,Left,1,1,True
@@ -1781,10 +1781,10 @@
 施陳茸,273,Right,1,1,True
 施陳茸,183,Left,1,1,True
 施陳茸,229,Right,1,1,True
-施陳茸,305,Right,1,0,False
+施陳茸,305,Right,1,1,True
 施陳茸,99,Right,1,1,True
 施陳茸,57,Left,1,1,True
-施陳茸,227,Left,1,0,False
+施陳茸,227,Left,1,1,True
 施陳茸,235,Right,1,1,True
 施陳茸,59,Left,1,1,True
 施陳茸,117,Left,1,1,True
@@ -1802,12 +1802,12 @@
 易堵,71,Left,1,1,True
 易堵,275,Right,1,0,False
 易堵,137,Left,1,1,True
-易堵,377,Right,1,1,True
+易堵,377,Right,1,0,False
 易堵,289,Right,1,1,True
 易堵,69,Left,1,1,True
 易堵,201,Right,1,1,True
 易堵,77,Right,1,1,True
-易堵,207,Right,1,1,True
+易堵,207,Right,1,0,False
 易堵,203,Right,1,1,True
 易堵,75,Left,1,1,True
 易堵,229,Right,1,1,True
@@ -1819,12 +1819,12 @@
 易堵,5,Right,1,1,True
 易堵,7,Right,1,1,True
 易堵,81,Left,1,1,True
-易堵,315,Left,1,1,True
+易堵,315,Left,1,0,False
 易堵,153,Left,1,1,True
 易堵,375,Right,1,1,True
 易堵,159,Right,1,0,False
 易堵,301,Right,1,0,False
-易堵,367,Right,1,0,False
+易堵,367,Right,1,1,True
 易堵,217,Right,1,0,False
 易堵,281,Left,1,0,False
 易堵,183,Right,1,1,True
@@ -1858,7 +1858,7 @@
 易堵,211,Left,1,1,True
 易堵,257,Right,1,0,False
 易堵,319,Right,1,1,True
-易堵,21,Right,1,0,False
+易堵,21,Right,1,1,True
 易堵,279,Right,1,1,True
 易堵,75,Right,1,1,True
 易堵,187,Right,1,1,True
@@ -1881,7 +1881,7 @@
 易堵,287,Right,1,1,True
 易堵,27,Left,1,1,True
 易堵,215,Left,1,1,True
-易堵,5,Left,1,1,True
+易堵,5,Left,1,0,False
 易堵,171,Right,1,1,True
 易堵,363,Right,1,1,True
 李太山,203,Left,1,1,True
@@ -1945,7 +1945,7 @@
 李太山,385,Left,1,1,True
 李太山,103,Left,1,1,True
 李太山,131,Left,1,1,True
-李太山,287,Left,1,0,False
+李太山,287,Left,1,1,True
 李太山,69,Left,1,1,True
 李太山,187,Left,1,1,True
 李太山,243,Left,1,1,True
@@ -1966,7 +1966,7 @@
 李太山,93,Left,1,1,True
 李太山,121,Left,1,1,True
 李太山,193,Left,1,1,True
-李太山_前,315,Left,0,0,True
+李太山_前,315,Left,0,1,False
 李太山_前,325,Left,0,0,True
 李太山_前,377,Left,0,1,False
 李太山_前,17,Left,0,0,True
@@ -1978,7 +1978,7 @@
 李太山_前,293,Left,0,0,True
 李太山_前,103,Left,0,1,False
 李太山_前,89,Left,0,0,True
-李太山_前,339,Left,0,0,True
+李太山_前,339,Left,0,1,False
 李太山_前,97,Left,0,0,True
 李太山_前,125,Left,0,0,True
 李太山_前,199,Left,0,0,True
@@ -2012,14 +2012,14 @@
 李太山_後,13,Left,1,1,True
 李太山_後,127,Left,1,1,True
 李太山_後,267,Right,1,1,True
-李太山_後,43,Left,1,0,False
+李太山_後,43,Left,1,1,True
 李太山_後,191,Right,1,1,True
 李太山_後,19,Right,1,1,True
 李太山_後,111,Right,1,1,True
 李太山_後,281,Right,1,1,True
 李太山_後,355,Right,1,1,True
 李太山_後,163,Right,1,0,False
-李太山_後,227,Right,1,0,False
+李太山_後,227,Right,1,1,True
 李太山_後,329,Right,1,1,True
 李太山_後,143,Left,1,0,False
 李太山_後,247,Right,1,1,True
@@ -2040,7 +2040,7 @@
 李太山_後,179,Left,1,1,True
 李太山_後,295,Right,1,1,True
 李太山_後,109,Left,1,1,True
-李太山_後,353,Left,1,0,False
+李太山_後,353,Left,1,1,True
 李太山_後,339,Right,1,1,True
 李太山_後,361,Right,1,1,True
 李太山_後,105,Right,1,1,True
@@ -2065,7 +2065,7 @@
 李太山_後,197,Right,1,1,True
 李太山_後,71,Left,1,0,False
 李太山_後,161,Right,1,0,False
-李太山_後,325,Left,1,1,True
+李太山_後,325,Left,1,0,False
 李太山_後,151,Right,1,1,True
 李太山_後,269,Right,1,1,True
 李太山_後,261,Right,1,1,True
@@ -2088,7 +2088,7 @@
 李太山_後,195,Left,1,1,True
 李武男,67,Right,1,1,True
 李武男,75,Right,1,1,True
-李武男,19,Right,1,0,False
+李武男,19,Right,1,1,True
 李武男,221,Right,1,1,True
 李武男,189,Right,1,1,True
 李武男,59,Right,1,1,True
@@ -2120,7 +2120,7 @@
 李清龍,373,Left,0,0,True
 李清龍,39,Right,0,1,False
 李清龍,29,Right,0,1,False
-李清龍,229,Left,0,0,True
+李清龍,229,Left,0,1,False
 李清龍,5,Right,0,0,True
 李清龍,21,Right,0,1,False
 李清龍,345,Right,0,0,True
@@ -2133,7 +2133,7 @@
 李清龍,145,Right,0,0,True
 李清龍,297,Left,0,1,False
 李清龍,237,Left,0,0,True
-李清龍,61,Left,0,1,False
+李清龍,61,Left,0,0,True
 李清龍,71,Left,0,0,True
 李清龍,7,Right,0,0,True
 李清龍,285,Left,0,1,False
@@ -2157,7 +2157,7 @@
 李清龍,167,Left,0,0,True
 李清龍,319,Left,0,1,False
 李清龍,229,Right,0,0,True
-李清龍,219,Right,0,1,False
+李清龍,219,Right,0,0,True
 李清龍,157,Right,0,0,True
 李清龍,363,Right,0,0,True
 李清龍,327,Right,0,1,False
@@ -2173,7 +2173,7 @@
 李清龍,189,Right,0,0,True
 李清龍,223,Right,0,1,False
 李清龍,181,Left,0,0,True
-李清龍,267,Left,0,1,False
+李清龍,267,Left,0,0,True
 李清龍,179,Right,0,1,False
 李清龍,293,Left,0,0,True
 李清龍,103,Right,0,1,False
@@ -2183,7 +2183,7 @@
 李清龍,339,Right,0,1,False
 李清龍,133,Left,0,0,True
 李清龍,297,Right,0,1,False
-李清龍,107,Left,0,0,True
+李清龍,107,Left,0,1,False
 李清龍,249,Right,0,1,False
 李清龍,337,Left,0,0,True
 李清龍,99,Left,0,0,True
@@ -2229,7 +2229,7 @@
 李長聰,411,Right,1,1,True
 李長聰,101,Right,1,1,True
 李長聰,419,Right,1,1,True
-李長聰,303,Right,1,1,True
+李長聰,303,Right,1,0,False
 李長聰,87,Right,1,1,True
 李長聰,249,Right,1,0,False
 李長聰,247,Left,1,1,True
@@ -2273,7 +2273,7 @@
 林隨_後,333,Right,1,1,True
 林隨_後,289,Right,1,1,True
 林隨_後,227,Right,1,1,True
-林隨_後,263,Left,1,0,False
+林隨_後,263,Left,1,1,True
 林隨_後,215,Right,1,1,True
 林隨_後,5,Left,1,1,True
 林隨_後,143,Right,1,1,True
@@ -2291,7 +2291,7 @@
 林隨_後,149,Right,1,1,True
 林隨_後,327,Right,1,1,True
 林隨_後,13,Right,1,1,True
-林隨_後,71,Left,1,0,False
+林隨_後,71,Left,1,1,True
 林隨_後,25,Right,1,1,True
 林隨_後,311,Right,1,1,True
 林隨_後,275,Right,1,1,True
@@ -2316,7 +2316,7 @@
 楊元隆,93,Left,1,1,True
 楊元隆,151,Right,1,1,True
 楊元隆,237,Left,1,1,True
-楊元隆,217,Right,1,1,True
+楊元隆,217,Right,1,0,False
 楊元隆,383,Left,1,1,True
 楊元隆,123,Left,1,1,True
 楊元隆,325,Left,1,1,True
@@ -2346,7 +2346,7 @@
 楊元隆,41,Right,1,1,True
 楊元隆,163,Right,1,0,False
 楊元隆,89,Right,1,1,True
-楊元隆,283,Right,1,0,False
+楊元隆,283,Right,1,1,True
 楊元隆,17,Left,1,0,False
 楊元隆,25,Right,1,1,True
 楊元隆,1,Right,1,1,True
@@ -2357,7 +2357,7 @@
 楊元隆,161,Right,1,1,True
 楊元隆,253,Right,1,1,True
 楊元隆,245,Left,1,1,True
-楊元隆,275,Left,1,1,True
+楊元隆,275,Left,1,0,False
 楊元隆,175,Right,1,1,True
 楊元隆,65,Right,1,1,True
 楊元隆,145,Right,1,1,True
@@ -2367,7 +2367,7 @@
 楊元隆,327,Right,1,0,False
 楊元隆,315,Right,1,1,True
 楊元隆,323,Right,1,1,True
-楊元隆,7,Left,1,1,True
+楊元隆,7,Left,1,0,False
 楊元隆,203,Left,1,1,True
 楊元隆,379,Left,1,1,True
 楊元隆,321,Left,1,1,True
@@ -2389,7 +2389,7 @@
 楊元隆,95,Right,1,1,True
 楊元隆,39,Right,1,1,True
 楊元隆,9,Right,1,1,True
-楊元隆,361,Right,1,0,False
+楊元隆,361,Right,1,1,True
 楊元隆,297,Left,1,1,True
 楊元隆,75,Right,1,1,True
 楊元隆,203,Left,1,1,True
@@ -2419,7 +2419,7 @@
 楊元隆,271,Left,1,1,True
 楊元隆,19,Right,1,1,True
 楊元隆,313,Right,1,0,False
-楊元隆,177,Left,1,1,True
+楊元隆,177,Left,1,0,False
 楊元隆,151,Right,1,1,True
 楊元隆,43,Right,1,1,True
 楊元隆,331,Left,1,1,True
@@ -2434,7 +2434,7 @@
 楊元隆,111,Right,1,1,True
 楊元隆,295,Right,1,1,True
 楊元隆,167,Right,1,1,True
-楊元隆,127,Left,1,0,False
+楊元隆,127,Left,1,1,True
 楊元隆,53,Right,1,1,True
 楊元隆,345,Right,1,1,True
 楊元隆,279,Right,1,1,True
@@ -2578,7 +2578,7 @@
 范承介_前,369,Right,0,0,True
 范承介_前,183,Left,0,1,False
 范承介_前,107,Right,0,1,False
-范承介_前,211,Right,0,1,False
+范承介_前,211,Right,0,0,True
 范承介_前,157,Left,0,0,True
 范承介_前,307,Left,0,0,True
 范承介_前,121,Right,0,0,True
@@ -2605,7 +2605,7 @@
 范承介_前,183,Right,0,0,True
 范承介_前,315,Left,0,0,True
 范承介_前,259,Left,0,0,True
-范承介_前,271,Right,0,1,False
+范承介_前,271,Right,0,0,True
 范承介_前,119,Right,0,0,True
 范承介_前,267,Left,0,0,True
 范承介_前,359,Left,0,0,True
@@ -2620,7 +2620,7 @@
 范承介_前,357,Left,0,1,False
 范承介_前,109,Left,0,0,True
 范承介_前,289,Right,0,0,True
-范承介_前,289,Left,0,0,True
+范承介_前,289,Left,0,1,False
 范承介_前,373,Left,0,0,True
 范承介_前,187,Right,0,0,True
 范承介_前,77,Right,0,1,False
@@ -2644,8 +2644,8 @@
 范承介_前,397,Left,0,0,True
 范承介_前,133,Right,0,0,True
 范承介_前,325,Left,0,0,True
-范承介_前,173,Right,0,0,True
-范承介_前,301,Left,0,1,False
+范承介_前,173,Right,0,1,False
+范承介_前,301,Left,0,0,True
 范承介_前,271,Left,0,1,False
 范承介_前,389,Left,0,0,True
 范承介_前,355,Right,0,0,True
@@ -2674,7 +2674,7 @@
 范承介_後,269,Left,1,1,True
 范承介_後,273,Left,1,1,True
 范承介_後,243,Left,1,1,True
-范承介_後,165,Right,1,0,False
+范承介_後,165,Right,1,1,True
 范承介_後,269,Right,1,1,True
 范承介_後,355,Left,1,1,True
 范承介_後,381,Left,1,1,True
@@ -2706,7 +2706,7 @@
 范承介_後,107,Right,1,1,True
 范承介_後,379,Right,1,1,True
 范承介_後,229,Left,1,1,True
-范承介_後,293,Right,1,0,False
+范承介_後,293,Right,1,1,True
 范承介_後,271,Left,1,1,True
 范承介_後,359,Left,1,1,True
 范承介_後,69,Left,1,0,False
@@ -2739,7 +2739,7 @@
 范承介_後,249,Left,1,1,True
 范承介_後,183,Left,1,1,True
 范承介_後,247,Left,1,1,True
-范承介_後,115,Left,1,0,False
+范承介_後,115,Left,1,1,True
 范承介_後,285,Right,1,1,True
 范承介_後,287,Right,1,0,False
 范承介_後,225,Right,1,1,True
@@ -2810,7 +2810,7 @@
 莊仲鏞_前,113,Right,0,0,True
 莊仲鏞_前,207,Right,0,0,True
 莊仲鏞_前,151,Right,0,0,True
-莊仲鏞_前,261,Left,0,1,False
+莊仲鏞_前,261,Left,0,0,True
 莊仲鏞_前,33,Right,0,1,False
 莊仲鏞_前,77,Right,0,0,True
 莊仲鏞_前,279,Right,0,0,True
@@ -2851,7 +2851,7 @@
 詹金霞_前,223,Right,0,0,True
 詹金霞_前,143,Right,0,0,True
 詹金霞_前,237,Left,0,0,True
-詹金霞_前,151,Left,0,0,True
+詹金霞_前,151,Left,0,1,False
 詹金霞_前,145,Right,0,0,True
 詹金霞_前,107,Left,0,1,False
 詹金霞_前,105,Left,0,0,True
@@ -2867,7 +2867,7 @@
 詹金霞_前,13,Right,0,0,True
 詹金霞_前,97,Right,0,0,True
 詹金霞_前,45,Left,0,0,True
-詹金霞_前,261,Left,0,0,True
+詹金霞_前,261,Left,0,1,False
 詹金霞_前,233,Right,0,0,True
 詹金霞_前,179,Left,0,1,False
 詹金霞_前,311,Right,0,0,True
@@ -2904,7 +2904,7 @@
 詹金霞_前,275,Right,0,0,True
 詹金霞_前,39,Right,0,0,True
 詹金霞_前,155,Left,0,0,True
-詹金霞_前,15,Right,0,0,True
+詹金霞_前,15,Right,0,1,False
 詹金霞_前,269,Left,0,1,False
 詹金霞_前,133,Left,0,1,False
 詹金霞_前,57,Left,0,1,False
@@ -2974,7 +2974,7 @@
 詹金霞_後,237,Left,1,1,True
 詹金霞_後,125,Left,1,1,True
 詹金霞_後,377,Right,1,0,False
-詹金霞_後,127,Right,1,0,False
+詹金霞_後,127,Right,1,1,True
 詹金霞_後,59,Right,1,0,False
 詹金霞_後,283,Right,1,1,True
 詹金霞_後,77,Left,1,1,True
@@ -2984,7 +2984,7 @@
 詹金霞_後,105,Left,1,0,False
 詹金霞_後,265,Left,1,1,True
 詹金霞_後,185,Left,1,1,True
-詹金霞_後,235,Right,1,1,True
+詹金霞_後,235,Right,1,0,False
 詹金霞_後,331,Right,1,1,True
 詹金霞_後,371,Left,1,1,True
 詹金霞_後,317,Right,1,1,True
@@ -3020,7 +3020,7 @@
 詹金霞_後,271,Right,1,1,True
 詹金霞_後,3,Right,1,1,True
 詹金霞_後,371,Right,1,1,True
-趙郭雪月,339,Right,0,1,False
+趙郭雪月,339,Right,0,0,True
 趙郭雪月,63,Right,0,1,False
 趙郭雪月,231,Right,0,1,False
 趙郭雪月,33,Left,0,1,False
@@ -3030,9 +3030,9 @@
 趙郭雪月,323,Right,0,1,False
 趙郭雪月,1,Right,0,1,False
 趙郭雪月,181,Left,0,1,False
-鄭松茂_前,249,Right,0,0,True
+鄭松茂_前,249,Right,0,1,False
 鄭松茂_前,263,Right,0,0,True
-鄭松茂_前,57,Right,0,0,True
+鄭松茂_前,57,Right,0,1,False
 鄭松茂_前,47,Right,0,1,False
 鄭松茂_前,167,Right,0,1,False
 鄭松茂_前,111,Right,0,0,True
@@ -3090,7 +3090,7 @@
 鄭茂松,317,Left,0,0,True
 鄭茂松,39,Right,0,0,True
 鄭茂松,281,Right,0,0,True
-鄭茂松,239,Right,0,0,True
+鄭茂松,239,Right,0,1,False
 鄭茂松,287,Left,0,0,True
 鄭茂松,63,Left,0,0,True
 鄭茂松,7,Left,0,1,False
@@ -3125,7 +3125,7 @@
 鄭茂松,133,Right,0,0,True
 鄭茂松,293,Right,0,0,True
 鄭茂松,141,Right,0,0,True
-鄭茂松,163,Right,0,1,False
+鄭茂松,163,Right,0,0,True
 鄭茂松,171,Left,0,0,True
 鄭茂松,53,Right,0,0,True
 鄭茂松,273,Right,0,0,True
@@ -3168,7 +3168,7 @@
 鄭茂松,259,Left,0,0,True
 鄭茂松,225,Left,0,0,True
 鄭茂松,137,Right,0,0,True
-鄭茂松,227,Right,0,1,False
+鄭茂松,227,Right,0,0,True
 鄭茂松,129,Right,0,0,True
 鄭茂松,291,Right,0,0,True
 鄭茂松,183,Right,0,0,True
@@ -3196,7 +3196,7 @@
 鄭茂松,121,Left,0,0,True
 鄭茂松,85,Right,0,0,True
 陳佩誼_前,283,Right,0,0,True
-陳佩誼_前,187,Left,0,0,True
+陳佩誼_前,187,Left,0,1,False
 陳佩誼_前,127,Left,0,0,True
 陳佩誼_前,369,Left,0,1,False
 陳佩誼_前,405,Right,0,0,True
@@ -3211,12 +3211,12 @@
 陳佩誼_前,231,Left,0,1,False
 陳佩誼_前,141,Left,0,0,True
 陳佩誼_前,199,Left,0,1,False
-陳佩誼_前,41,Left,0,1,False
+陳佩誼_前,41,Left,0,0,True
 陳佩誼_前,101,Left,0,1,False
 陳佩誼_前,375,Left,0,0,True
 陳佩誼_前,233,Left,0,1,False
-陳佩誼_前,379,Left,0,0,True
-陳佩誼_前,401,Left,0,0,True
+陳佩誼_前,379,Left,0,1,False
+陳佩誼_前,401,Left,0,1,False
 陳佩誼_前,279,Left,0,1,False
 陳佩誼_前,213,Left,0,0,True
 陳佩誼_前,105,Left,0,1,False
@@ -3227,7 +3227,7 @@
 陳佩誼_前,59,Left,0,1,False
 陳佩誼_前,359,Left,0,1,False
 陳佩誼_前,93,Left,0,1,False
-陳佩誼_前,73,Left,0,0,True
+陳佩誼_前,73,Left,0,1,False
 陳佩誼_前,155,Left,0,0,True
 陳佩誼_前,57,Left,0,0,True
 陳佩誼_前,325,Left,0,0,True
@@ -3254,7 +3254,7 @@
 陳佩誼_前,341,Left,0,0,True
 陳佩誼_前,363,Left,0,1,False
 陳佩誼_前,163,Left,0,0,True
-陳佩誼_前,91,Left,0,1,False
+陳佩誼_前,91,Left,0,0,True
 陳佩誼_前,173,Left,0,0,True
 陳佩誼_前,331,Left,0,0,True
 陳佩誼_前,207,Right,0,0,True
@@ -3267,7 +3267,7 @@
 陳佩誼_前,211,Left,0,1,False
 陳佩誼_前,177,Left,0,1,False
 陳佩誼_前,269,Left,0,0,True
-陳佩誼_前,251,Left,0,0,True
+陳佩誼_前,251,Left,0,1,False
 陳佩誼_前,247,Left,0,0,True
 陳佩誼_後,89,Left,1,1,True
 陳佩誼_後,101,Right,1,1,True
@@ -3307,7 +3307,7 @@
 陳佩誼_後,39,Right,1,1,True
 陳佩誼_後,387,Right,1,1,True
 陳佩誼_後,131,Left,1,1,True
-陳佩誼_後,253,Left,1,0,False
+陳佩誼_後,253,Left,1,1,True
 陳佩誼_後,289,Right,1,1,True
 陳佩誼_後,37,Right,1,1,True
 陳佩誼_後,277,Left,1,1,True
@@ -3490,7 +3490,7 @@
 陳高碧緞,225,Left,0,1,False
 陳高碧緞,281,Right,0,0,True
 陳高碧緞,63,Right,0,0,True
-陳高碧緞,289,Right,0,1,False
+陳高碧緞,289,Right,0,0,True
 陳高碧緞,143,Left,0,0,True
 陳高碧緞,209,Right,0,1,False
 陳高碧緞,155,Left,0,1,False
@@ -3531,7 +3531,7 @@
 陳高碧緞,267,Right,0,1,False
 陳高碧緞,29,Right,0,0,True
 陳高碧緞,235,Left,0,0,True
-陳高碧緞,225,Right,0,1,False
+陳高碧緞,225,Right,0,0,True
 陳高碧緞,101,Left,0,0,True
 陳高碧緞,305,Right,0,0,True
 陳高碧緞,327,Right,0,0,True
@@ -3562,7 +3562,7 @@
 陳高碧緞,11,Left,0,0,True
 陳高碧緞,343,Left,0,0,True
 陳高碧緞,283,Left,0,0,True
-陳高碧緞,33,Left,0,1,False
+陳高碧緞,33,Left,0,0,True
 陳高碧緞,301,Right,0,0,True
 陳高碧緞,95,Right,0,1,False
 陳高碧緞,27,Right,0,0,True
@@ -3584,7 +3584,7 @@
 陳高碧緞,167,Right,0,0,True
 陳高碧緞,295,Right,0,0,True
 陳高碧緞,43,Right,0,0,True
-陳高碧緞,243,Left,0,1,False
+陳高碧緞,243,Left,0,0,True
 陳高碧緞,329,Left,0,0,True
 陳高碧緞,63,Right,0,1,False
 陳高碧緞,73,Left,0,1,False
@@ -3607,7 +3607,7 @@
 馮丁美珠,369,Left,1,1,True
 馮丁美珠,141,Right,1,1,True
 馮丁美珠,273,Right,1,1,True
-馮丁美珠,299,Left,1,0,False
+馮丁美珠,299,Left,1,1,True
 馮丁美珠,131,Right,1,1,True
 馮丁美珠,183,Right,1,1,True
 馮丁美珠,251,Right,1,1,True
@@ -3624,7 +3624,7 @@
 馮丁美珠,347,Right,1,1,True
 馮丁美珠,15,Left,1,0,False
 馮丁美珠,363,Left,1,1,True
-馮丁美珠,165,Right,1,0,False
+馮丁美珠,165,Right,1,1,True
 馮丁美珠,375,Right,1,1,True
 馮丁美珠,25,Left,1,0,False
 馮丁美珠,65,Right,1,1,True
@@ -3663,7 +3663,7 @@
 高陳賽金,309,Left,1,1,True
 高陳賽金,75,Left,1,1,True
 高陳賽金,213,Left,1,1,True
-高陳賽金,251,Right,1,1,True
+高陳賽金,251,Right,1,0,False
 高陳賽金,51,Left,1,1,True
 高陳賽金,165,Right,1,1,True
 高陳賽金,181,Left,1,1,True
@@ -3688,7 +3688,7 @@
 高陳賽金,179,Left,1,1,True
 高陳賽金,137,Left,1,1,True
 高陳賽金,125,Left,1,1,True
-高陳賽金,301,Right,1,0,False
+高陳賽金,301,Right,1,1,True
 高陳賽金,199,Right,1,1,True
 高陳賽金,19,Left,1,1,True
 高陳賽金,297,Left,1,1,True
@@ -3714,7 +3714,7 @@
 高陳賽金,57,Right,1,1,True
 高陳賽金,209,Right,1,1,True
 高陳賽金,141,Right,1,1,True
-高陳賽金,3,Right,1,0,False
+高陳賽金,3,Right,1,1,True
 高陳賽金,63,Left,1,1,True
 高陳賽金,191,Left,1,1,True
 高陳賽金,265,Left,1,1,True
